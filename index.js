@@ -31,7 +31,7 @@ require('./src/routes/auth.routes')(app);
 require('./src/routes/user.routes')(app);
 
 app.get('/',(req,res)=>{
-    res.send('Hola desde Render');
+    res.send('Hola desde Azure');
 })
 
 const db = require('./src/models');
